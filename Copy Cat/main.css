@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/************************
+* NAV
+************************/
+nav, ul {
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: solid 1px rgb(216, 216, 216);
+    padding: 0;
+}
+
+li {
+    padding: 31px;
+    display: inline-block;
+}
+
+.logo {
+    width: 200px;
+}
+
+/************************
+* BODY/GENERAL
+************************/
+
+.cover {
+    width: 100%;
+}
+
+input {
+    background-color: white;
+    position: relative;
+    width: 633px;
+    height: 72px;
+    padding: 10px;
+    z-index: 1;
+    top: -437px;
+    right: -396px;
+}
+
+#change {
+    color: white;
+    position: relative;
+    z-index: 1;
+    top: -418px;
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#underlogo {
+    color: black;
+    position: relative;
+    top: -55px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+.col-sm {
+    display:inline-block;
+    width: 25%;
+    text-align: center;
+}
